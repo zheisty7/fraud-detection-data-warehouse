@@ -13,4 +13,6 @@ Models
 
 Builds and evaluates simple fraud detection models using the generated customer and transaction data. The script engineers demographic and behavioral features, merges datasets, and trains Logistic Regression, Decision Tree, and KNN to predict fraudulent transactions,and outputs model performance metrics.
 
+SQL
 
+SQL scripts used to review, validate, and analyze data within the fraud detection data warehouse. The queries support data quality checks, exploratory analysis, fraud pattern identification, customer behavior analysis, and summary metrics used for reporting and model development
