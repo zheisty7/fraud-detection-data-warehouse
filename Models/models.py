@@ -8,8 +8,8 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score, classification_report
 
 # 1. LOAD DATA
-customers = pd.read_csv(r"/Users/zach/Desktop/School/Fall '25/DATA 415/Project 1/customers.csv")
-transactions = pd.read_csv(r"/Users/zach/Desktop/School/Fall '25/DATA 415/Project 1/transactions.csv")
+customers = pd.read_csv(r"file_path")
+transactions = pd.read_csv(r"file_path")
 
 # 2. CLEAN & PREPARE DATES
 transactions["transaction_date"] = pd.to_datetime(transactions["transaction_date"])
@@ -77,6 +77,4 @@ print("\nKNN")
 print("Accuracy:", accuracy_score(y_test, knn_preds))
 print(classification_report(y_test, knn_preds, zero_division=0))
 
-# 13. SAVE FINAL MERGED DATASET
-df.to_csv(r"/Users/zach/Desktop/School/Fall '25/DATA 415/Project 1/final_merged_dataset.csv", index=False)
-print("\nSaved final_merged_dataset.csv")
+
