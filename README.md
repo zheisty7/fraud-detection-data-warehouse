@@ -1,5 +1,5 @@
 # Fraud detection data warehouse
-A data warehouse project that took simulated credit card transaction data to analyze and detect potential fraudulent activity. Includes synthetic datasets, MySQL schema design, ETL pipeline, and analytical queries for fraud trend evaluation.
+A data warehouse project that took simulated credit card transaction data to analyze and detect potential fraudulent activity. Includes synthetic datasets, MySQL schema design, training models for predicting fraudulent behavior, and analytical queries for fraud trend evaluation.
 
 Database Schema
 
